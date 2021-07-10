@@ -8,7 +8,7 @@ Database feature has also been added so as to avoid repeated lookup of files in 
 **FILES**
 
 **settings.yaml:** This file consists settings and switches regarding the elastic, virustotal, database and scan parameters. Input the following fields:
-'''
+```
 paths: ['/home']  #empty means base directory - '/'. Avoid using base dir as it will increase the load in the script and might require increasing the node limit.
 enableVT: True
 virustotalAPI: "<API_KEY>"
@@ -17,7 +17,7 @@ elasticIP: "localhost"
 elasticPort: "9200"
 databaseFile: "files.db"
 extensions: ['app', 'dmg', 'pkg', 'kext']
-'''
+```
 
 **Requirements:**
  - Python 3.7+
