@@ -1,0 +1,8 @@
+paths: ['/home']  #empty means root directory - '/'
+enableVT: True
+virustotalAPI: ""
+enableElastic: True
+elasticIP: "localhost"
+elasticPort: "9200"
+databaseFile: "files.db"
+extensions: ['app', 'dmg', 'pkg', 'kext']
